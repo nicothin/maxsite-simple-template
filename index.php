@@ -28,6 +28,14 @@ if (mso_hook('global_cache_start', false)) return;
 
 
 
+  // для rss
+  if (is_feed()) {
+    require_once(getinfo('template_dir') . 'type/rss.php');
+    exit; // выходим
+  }
+
+
+
   // подключения типов страниц
   if(is_type('home')) {
     require_once(getinfo('template_dir') . 'type/home.php');

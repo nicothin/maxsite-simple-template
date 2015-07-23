@@ -30,6 +30,8 @@
   // cтили заданные в админке
   if ($my_style = mso_get_option('my_style', 'templates', '')) 
     echo NR . '<style>' . NR . $my_style . NR . '</style>' . NR;
+
+  echo NT . mso_rss();
   
   mso_hook('head-end');
 
