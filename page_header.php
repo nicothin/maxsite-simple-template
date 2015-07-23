@@ -48,6 +48,13 @@
 
 <?= mso_hook('body_start') ?>
 
+<ul>
+<?php 
+  $menu = mso_get_option('main-menu', 'templates', '');
+  echo mso_menu_build($menu, 'active', false);
+?>
+</ul>
+
 <?= getinfo('siteurl') ?> <br>
 <?= getinfo('stylesheet_url') ?> <br>
 <?= getinfo('template_dir') ?> <br>
