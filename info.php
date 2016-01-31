@@ -1,9 +1,9 @@
-<?php if (!defined('BASEPATH')) exit('No direct script access allowed'); 
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 $info = array(
-	'name' => 'Шаблон',
+	'name' => 'Элементарный шаблон',
 	'description' => t('Шаблон для MaxSite CMS'),
-	'version' => '0.1',
+	'version' => '1.0.0',
 	'author' => 'Н. Громов',
 	'template_url' => 'http://nicothin.ru',
 	'author_url' => 'http://nicothin.ru',

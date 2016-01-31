@@ -1,0 +1,15 @@
+assets/css/*.css
+
+.Saved/
+_arc/
+bower_components/
+node_modules/
+.DS_Store
+*.log
+*.sublime-*
+*.rar
+*.txt
+*.zip
+.idea
+ex_files
+Thumbs.db
